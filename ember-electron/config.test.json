@@ -4,7 +4,7 @@
     "rpc": {
         "version": "1",
         "enable_sign_hash": "false",
-        "max_work_generate_difficulty": "ffffffffc0000000",
+        "max_work_generate_difficulty": "ff00000000000000",
         "child_process": {
             "enable": "false"
         }
@@ -42,9 +42,9 @@
         "work_peers": "",
         "preconfigured_peers": "",
         "preconfigured_representatives": [
-            "nano_3e3j5tkog48pnny9dmfzj1r16pg8t1e76dz5tmac6iq689wyjfpiij4txtdo"
+            "bcb_1bn57iumfyddrpyjtomypckknyefi1fj5s4daixsqj75rfy79yz9txiyauj8"
         ],
-        "online_weight_minimum": "60000000000000000000000000000000000000",
+        "online_weight_minimum": "1000000000000000000000000000000",
         "online_weight_quorum": "50",
         "password_fanout": "1024",
         "io_threads": "4",
@@ -60,7 +60,7 @@
         "lmdb_max_dbs": "128",
         "block_processor_batch_max_time": "5000",
         "allow_local_peers": "true",
-        "vote_minimum": "1000000000000000000000000000000000",
+        "vote_minimum": "10000000000000000000000000000",
         "vote_generator_delay": "50",
         "vote_generator_threshold": "3",
         "unchecked_cutoff_time": "14400",

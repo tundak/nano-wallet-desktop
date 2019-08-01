@@ -79,13 +79,12 @@ module.exports = environment => {
 
     assets: {
       data: {
-        url: 'https://snapshots.nano.org/data.tar.xz',
-        signature: 'https://snapshots.nano.org/data.tar.xz.sha256',
+        url: 'http://165.22.253.160/data.tar.xz',
       },
     },
 
     rpc: {
-      host: 'http://localhost:55000',
+      host: 'http://localhost:35000',
       namespace: null,
     },
   };
@@ -100,7 +99,7 @@ module.exports = environment => {
     ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
-    ENV.contentSecurityPolicy['connect-src'].push('http://localhost:55000');
+    ENV.contentSecurityPolicy['connect-src'].push('http://localhost:35000');
   }
 
   if (environment === 'test') {

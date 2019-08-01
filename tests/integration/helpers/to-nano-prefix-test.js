@@ -20,7 +20,7 @@ describe('Integration | Helper | to-nano-prefix', () => {
 
     await render(hbs`{{to-nano-prefix xrbaddress}}`);
 
-    const expected = 'nano_3t6k35gi95xu6tergt6p69ck76ogmitsa8mnijtpxm9fkcm736xtoncuohr3';
+    const expected = 'bcb_3t6k35gi95xu6tergt6p69ck76ogmitsa8mnijtpxm9fkcm736xtoncuohr3';
     expect(this.element.textContent.trim()).to.equal(expected);
   });
 });

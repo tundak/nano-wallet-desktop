@@ -1,4 +1,4 @@
-product: 'Nano桌面客户端'
+product: 'Btcb桌面客户端'
 cancel: '取消'
 done: '完成'
 loading: '加载中…'
@@ -45,7 +45,7 @@ status:
   unchecked: '未确认区块'
   peers: '点'
 balancePending: '正在加载账户余额'
-NANO: 'NANO'
+NANO: 'BTCB'
 BTC: 'BTC'
 USD: '美元'
 EUR: '欧元'
@@ -87,8 +87,8 @@ wallets:
       source: '发送账户'
       search: '搜索账户'
       destination: '收款账户'
-      placeholder: '地址 (比如：nano_...)'
-      amount: '数量 (NANO)'
+      placeholder: '地址 (比如：bcb_...)'
+      amount: '数量 (BTCB)'
       insufficient: '输入数量超出账户余额'
     history:
       none: '无历史记录'
@@ -111,7 +111,7 @@ wallets:
 setup:
   lead: '让我们来对你的钱包进行相关设置。'
   instructions: >
-    使用nano桌面客户端时，你需要首先创建一个新的钱包，或者用种子导入你的钱包数据
+    使用btcb桌面客户端时，你需要首先创建一个新的钱包，或者用种子导入你的钱包数据
   create: '创建新钱包'
   or: '或者'
   import: '导入钱包'

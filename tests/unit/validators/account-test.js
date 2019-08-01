@@ -9,9 +9,9 @@ describe('Unit | Validator | account', () => {
     expect(validator('account', account)).to.be.true;
   });
 
-  it('passes addresses with nano_ prefix', () => {
+  it('passes addresses with bcb_ prefix', () => {
     const validator = validateAccount();
-    const account = 'nano_3arg3asgtigae3xckabaaewkx3bzsh7nwz7jkmjos79ihyaxwphhm6qgjps4';
+    const account = 'bcb_3arg3asgtigae3xckabaaewkx3bzsh7nwz7jkmjos79ihyaxwphhm6qgjps4';
     expect(validator('account', account)).to.be.true;
   });
 
