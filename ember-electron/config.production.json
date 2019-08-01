@@ -4,14 +4,14 @@
     "rpc": {
         "version": "1",
         "enable_sign_hash": "false",
-        "max_work_generate_difficulty": "ffffffffc0000000",
+        "max_work_generate_difficulty": "ff00000000000000",
         "child_process": {
             "enable": "false"
         }
     },
     "node": {
         "version": "17",
-        "peering_port": "7075",
+        "peering_port": "9075",
         "bootstrap_fraction_numerator": "1",
         "receive_minimum": "1000000000000000000000000",
         "logging": {
@@ -82,12 +82,12 @@
         "websocket": {
             "enable": "false",
             "address": "::1",
-            "port": "7078"
+            "port": "9078"
         },
         "ipc": {
             "tcp": {
                 "enable": "false",
-                "port": "7077",
+                "port": "9077",
                 "io_timeout": "15"
             },
             "local": {
